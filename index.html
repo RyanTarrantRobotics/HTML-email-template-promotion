@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+        * { 
+           margin: 0;
+           padding: 0;
+           border: 0; 
+           box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', '  Helvetica Neue', sans-serif;
+            font-size: 19px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3%;
+            text-align: justify;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        header {
+            width: 98%;
+        }
+
+        #logo {
+            margin: 3% 0 3% 3%;
+
+        }
+
+
+        #social{
+            float: right;
+            margin:3% 2% 4% 3%;
+            list-style-type: none;
+        }
+
+        #social > li {
+            display: inline;
+        }
+
+        #social > li > a > img {
+            max-width: 35px;
+        }
+
+        h1,
+        p{
+            margin:3%;
+        }
+
+        .btn{
+            float: right;
+            margin: 0% 2% 4% 0;
+            background-color: #303840;
+            color: #f6faff;
+            text-decoration: none;
+            font-weight: 800;
+            padding: 8px 12px;
+            border-radius: 8px;
+            letter-spacing: 2px;
+        }
+
+        hr {
+            height: 1px;
+            background-color: #303840;
+            clear: both;
+            width:96%;
+            margin: auto;
+        }
+
+        #contact{
+            text-align: center;
+            padding-bottom: 3%;
+            line-height: 16px;
+            font-size: 12px;
+            color: #303840;
+        }
+
+        .column{
+            float:left;
+            width:50%;
+            padding: 20px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .head{
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        #item-1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        #item-2{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        #item-3{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        
+        </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="logo">
+                <img src="img/logo.png" style="width: 20%; float: left; margin: 3% 0 3% 3%;">
+            </div>
+            <div>
+                <ul id="social">
+                    <li>
+                        <a href="#" target="_blank"><img src="img/fb-bw.png"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="img/in-bw.png"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="img/tw-bw.png"></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><img src="img/yt-bw.png"></a>
+                    </li>
+            </div>
+        </header>
+    <div id="banner">
+        <img src="img/clark-street1.jpg">
+        <br>
+        <div id="item-1">
+            <br>
+            <h2>What's Hot</h2>
+            <p>These are the styles that are setting the latest trends in the hottest corners of the UK right now.</p>
+            <button type="button" class="btn btn-secondary" style="align:center;">Shop Now!</button>
+        </div>
+
+        <img src="img/clark-street2.jpg">
+        <br>
+        <div id="item-2">
+            <br>
+            <h2>We Think You Might Like!</h2>
+            <br>
+        </div>
+        
+        <img src="img/clark-street3.jpg">
+        <br>
+        <div id="item-3">
+            
+        </div>
+
+            <hr />
+
+            <footer>
+                <p id="contact">
+                    Example House<br/>
+                    Lorem Lorem <br/>
+                    Lorem <br/>
+                    example@email.com <br/>
+                    [telephone number] <br/>
+                </p>
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
+</html>
